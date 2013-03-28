@@ -7,6 +7,7 @@ class Entity():
 	def __init__(self):
 		self.__query = 'SELECT %s FROM %s '
 		self.__insert = 'INSERT INTO %s (%s) VALUES(%s)'
+		self.__delete = 'DELETE FROM % '
 		pass
 
 	def select(self, entity, fields=[], where_clause={}):
@@ -29,3 +30,12 @@ class Entity():
 		table = entity.__class__.__name__
 		self.__insert = self.__insert % (table, columns, values)
 		return self.__insert.replace('None', ' NULL ')
+
+
+	def delete(self, entity, where_clause):
+		table = entity.__class__.__name__
+		where_string = ' WHERE '.join(['%s = %s' % (k, v) for k, v in where_clause.items()[:1]])
+		and_clause = '' if len(where_clause) < 2 else ' AND '.join(['%s = %s' % (k, v) for k, v in where_clause.items()[1:]])
+
+		self.__delete = self.__delete % (table, where_string)
+		return  self.__delete + and_clause
