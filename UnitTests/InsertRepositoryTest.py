@@ -1,9 +1,9 @@
 from Test import Test
-from Repository.Repository import Entity
+from Core.SQLBuilder import SQLBuilder
+
 __author__ = 'logan'
 
-entity = Entity()
-
+entity = SQLBuilder()
 
 def must_include_all_fields_on_insert_statement():
 	"""

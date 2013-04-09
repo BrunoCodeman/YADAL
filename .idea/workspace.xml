@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59d2113f-aef3-4198-9514-b2597e1cb84f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UnitTests/InsertRepositoryTest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UnitTests/SelectRepositoryTest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Repository/Repository.py" afterPath="$PROJECT_DIR$/Repository/Repository.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="59d2113f-aef3-4198-9514-b2597e1cb84f" name="Default" comment="" />
     <ignored path="YADAL.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/AggregateRoot" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1364347253948" ignored="false" />
-    <file path="/Repository.py" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1364544845898" ignored="false" />
+    <file path="/Repository.py" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1364710579672" ignored="false" />
     <file path="/RepositoryUnitTest.py" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1364358391670" ignored="false" />
     <file path="/Teste().py" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1364357067078" ignored="false" />
     <file path="/Teste.py" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1364359026709" ignored="false" />
-    <file path="/Dummy.txt" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1364521539911" ignored="false" />
-    <file path="/Blevers.py" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1364521582974" ignored="false" />
+    <file path="/Dummy.txt" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1365478771965" ignored="false" />
+    <file path="/Blevers.py" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1364710607917" ignored="false" />
     <file path="/RepositoryTest.py" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1364545104962" ignored="false" />
     <file path="/fragment.py" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1364522157745" ignored="false" />
     <file path="/InsertRepositoryTest.py" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1364546045764" ignored="false" />
+    <file path="/DeleteRepositoryTest.py" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1365478850367" ignored="false" />
+    <file path="/SelectRepositoryTest.py" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1364589785894" ignored="false" />
+    <file path="/UpdateRepositoryTest.py" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1364710932705" ignored="false" />
+    <file path="/SQLBuilder.py" changelist="59d2113f-aef3-4198-9514-b2597e1cb84f" time="1365478818647" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/YADAL$DeleteRepositoryTest.coverage" NAME="DeleteRepositoryTest Coverage Results" MODIFIED="1364591074930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnitTests" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -35,20 +37,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Repository.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Repository/Repository.py">
+      <file leaf-file-name="SQLBuilder.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/SQLBuilder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="73" selection-start="429" selection-end="429" vertical-scroll-proportion="0.6504065">
+            <state line="8" column="47" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitTests/Test.py">
+      <file leaf-file-name="DeleteRepositoryTest.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UnitTests/DeleteRepositoryTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="6" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="-0.37466308">
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,7 +60,32 @@
       <file leaf-file-name="InsertRepositoryTest.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitTests/InsertRepositoryTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="33" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
+            <state line="5" column="21" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectRepositoryTest.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnitTests/SelectRepositoryTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="21" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#134#400#0" expanded="false" />
+                <element signature="e#472#771#0" expanded="false" />
+                <element signature="e#1453#1834#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateRepositoryTest.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnitTests/UpdateRepositoryTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="23" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -72,6 +101,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
@@ -87,19 +117,23 @@
         <option value="$PROJECT_DIR$/UnitTests/Repository/RepositoryUnitTest.py" />
         <option value="$PROJECT_DIR$/UnitTests/Teste.py" />
         <option value="$PROJECT_DIR$/UnitTests/Test.py" />
-        <option value="$PROJECT_DIR$/Blevers.py" />
         <option value="$PROJECT_DIR$/UnitTests/RepositoryTest.py" />
         <option value="$PROJECT_DIR$/Repository/Repository.py" />
-        <option value="$PROJECT_DIR$/UnitTests/SelectRepositoryTest.py" />
+        <option value="$PROJECT_DIR$/Blevers.py" />
+        <option value="$PROJECT_DIR$/Repository/SQLBuilder.py" />
+        <option value="$PROJECT_DIR$/UnitTests/DeleteRepositoryTest.py" />
         <option value="$PROJECT_DIR$/UnitTests/InsertRepositoryTest.py" />
+        <option value="$PROJECT_DIR$/UnitTests/SelectRepositoryTest.py" />
+        <option value="$PROJECT_DIR$/UnitTests/UpdateRepositoryTest.py" />
+        <option value="$PROJECT_DIR$/Core/ActiveRecord/BaseEntity.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="97" />
     <option name="y" value="22" />
-    <option name="width" value="1770" />
-    <option name="height" value="871" />
+    <option name="width" value="1038" />
+    <option name="height" value="687" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -127,17 +161,12 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="YADAL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -164,18 +193,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YADAL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YADAL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.lookFeel" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -190,76 +235,7 @@
       <recent name="$PROJECT_DIR$/UnitTests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.InsertRepositoryTest">
-    <configuration default="false" name="Unittests in RepositoryUnitTest" type="tests" factoryName="Unittests" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnitTests/Repository" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="YADAL" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnitTests/Repository/RepositoryUnitTest.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in Test" type="tests" factoryName="Unittests" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnitTests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="YADAL" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnitTests/Test.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in /Users/logan/Documents/projetos/YADAL/UnitTests" type="tests" factoryName="Unittests" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnitTests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="YADAL" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="$PROJECT_DIR$/UnitTests" />
-      <option name="TEST_TYPE" value="TEST_FOLDER" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.UpdateRepositoryTest">
     <configuration default="false" name="SelectRepositoryTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -295,6 +271,63 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnitTests/InsertRepositoryTest.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DeleteRepositoryTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnitTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="YADAL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnitTests/DeleteRepositoryTest.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonCover" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonCover" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SQLBuilder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Repository" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="YADAL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Repository/SQLBuilder.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UpdateRepositoryTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnitTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="YADAL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnitTests/UpdateRepositoryTest.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -353,23 +386,41 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in RepositoryUnitTest" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Test" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in /Users/logan/Documents/projetos/YADAL/UnitTests" />
-      <item index="3" class="java.lang.String" itemvalue="Python.SelectRepositoryTest" />
-      <item index="4" class="java.lang.String" itemvalue="Python.InsertRepositoryTest" />
+      <item index="0" class="java.lang.String" itemvalue="Python.SelectRepositoryTest" />
+      <item index="1" class="java.lang.String" itemvalue="Python.InsertRepositoryTest" />
+      <item index="2" class="java.lang.String" itemvalue="Python.DeleteRepositoryTest" />
+      <item index="3" class="java.lang.String" itemvalue="Python.SQLBuilder" />
+      <item index="4" class="java.lang.String" itemvalue="Python.UpdateRepositoryTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.InsertRepositoryTest" />
-        <item index="1" class="java.lang.String" itemvalue="Python.SelectRepositoryTest" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in /Users/logan/Documents/projetos/YADAL/UnitTests" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in RepositoryUnitTest" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in Test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.UpdateRepositoryTest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.DeleteRepositoryTest" />
+        <item index="2" class="java.lang.String" itemvalue="Python.InsertRepositoryTest" />
+        <item index="3" class="java.lang.String" itemvalue="Python.SQLBuilder" />
+        <item index="4" class="java.lang.String" itemvalue="Python.SelectRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="59d2113f-aef3-4198-9514-b2597e1cb84f" name="Default" comment="" />
@@ -379,7 +430,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="97" y="22" width="1770" height="871" extended-state="0" />
+    <frame x="97" y="22" width="1038" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -387,15 +438,16 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2035963" sideWeight="0.5272244" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23689516" sideWeight="0.741652" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39924434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47277558" sideWeight="0.9941995" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.258348" sideWeight="0.99596775" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.109048724" sideWeight="0.5272244" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -458,29 +510,59 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UnitTests/SelectRepositoryTest.py</url>
-          <line>60</line>
+          <line>63</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/UnitTests/SelectRepositoryTest.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/UnitTests/DeleteRepositoryTest.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/UnitTests/DeleteRepositoryTest.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/UnitTests/UpdateRepositoryTest.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Repository/Repository.py">
+    <entry file="file://$PROJECT_DIR$/UnitTests/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitTests/InsertRepositoryTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="33" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/SQLBuilder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="57" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Repository/Repository.py">
+    <entry file="file://$PROJECT_DIR$/Core/SQLBuilder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="21" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Repository/Repository.py">
+    <entry file="file://$PROJECT_DIR$/Core/SQLBuilder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
           <folding />
@@ -504,43 +586,67 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1471" column="0" selection-start="58683" selection-end="58683" vertical-scroll-proportion="0.8644986">
-          <folding />
+        <state line="1471" column="0" selection-start="58683" selection-end="58683" vertical-scroll-proportion="0.8644986" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitTests/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="32" selection-start="65" selection-end="65" vertical-scroll-proportion="0.2027027" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitTests/InsertRepositoryTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="21" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UnitTests/SelectRepositoryTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="104" vertical-scroll-proportion="0.0">
+        <state line="5" column="21" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#500#830#0" expanded="false" />
-            <element signature="e#920#1359#0" expanded="false" />
-            <element signature="e#1456#1837#0" expanded="false" />
+            <element signature="e#134#400#0" expanded="false" />
+            <element signature="e#472#771#0" expanded="false" />
+            <element signature="e#1453#1834#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitTests/Test.py">
+    <entry file="file://$PROJECT_DIR$/UnitTests/UpdateRepositoryTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnitTests/InsertRepositoryTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="33" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
+        <state line="16" column="23" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Repository/Repository.py">
+    <entry file="file://$PROJECT_DIR$/Core/SQLBuilder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="73" selection-start="429" selection-end="429" vertical-scroll-proportion="0.6504065">
+        <state line="8" column="47" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitTests/DeleteRepositoryTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="-0.37466308">
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
